@@ -1,4 +1,20 @@
 ---
 label: Ideas post
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: techstack
+  type: tag_list
+  default: []
+  label: Tech Stack
+- name: experiencelevels
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: Experience Levels
