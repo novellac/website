@@ -9,7 +9,16 @@
         <g-link class="nav__link" to="/about/">About</g-link>
       </nav>
     </header>
-    <slot/>
+    <slot />
+    <!-- Page/Template will be inserted here -->
+    <div class="footer">
+      <p>
+        Built with
+        <a class="link" href="//gridsome.org">Gridsome</a>
+        & Tailwind. Made with ❤️ and 🍕 by
+        <a class="link" href="//twitter.com/novelladev">Novella C.</a>
+      </p>
+    </div>
   </div>
 </template>
 
@@ -23,9 +32,10 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
-  margin:0;
-  padding:0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
   line-height: 1.5;
 }
 
