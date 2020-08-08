@@ -18,3 +18,5 @@ fields:
     min: 
     max: 
   label: Experience Levels
+pages:
+- content/ideas/fpo-test-idea.md
