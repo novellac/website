@@ -14,9 +14,8 @@
 </template>
 
 <page-query>
-query IdeaPost ($path: String!) {
-   ideaPost: ideaPost (path: $path) {
-    id
+query ($id: ID!) {
+   ideaPost(id: $id) {
     title
     content
     experiencelevels
