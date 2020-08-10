@@ -17,4 +17,12 @@ module.exports = {
       },
     },
   ],
+  templates: {
+    IdeaPost: [
+      {
+        path: "/ideas/:title",
+        component: "./src/templates/IdeaPost.vue",
+      },
+    ],
+  },
 };
