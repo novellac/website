@@ -6,44 +6,10 @@
     <h1>Hello, world!</h1>
 
     <p>
-      Other text soon to come
-    </p>
-    <section class="posts">
-      <IdeaList
-        v-for="edge in $page.allIdeaPost.edges"
-        :key="edge.node.id"
-        :ideaPost="edge.node"
-      />
-    </section>
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener"
-        >Gridsome Docs</a
-      >
-      <a
-        href="https://github.com/gridsome/gridsome"
-        target="_blank"
-        rel="noopener"
-        >GitHub</a
-      >
+      This will be the front page
     </p>
   </Layout>
 </template>
-<page-query>
-query {
-  allIdeaPost {
-    totalCount
-    edges {
-      node {
-        id
-        title
-        path
-        experiencelevels
-        techstack
-      }
-    }
-  }
-}
-</page-query>
 <script>
 import IdeaList from "@/components/IdeaList.vue";
 export default {
@@ -51,7 +17,7 @@ export default {
     IdeaList,
   },
   metaInfo: {
-    title: "Hello, world!",
+    title: "Welcome to N's Den",
   },
 };
 </script>
