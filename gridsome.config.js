@@ -9,6 +9,9 @@ module.exports = {
   siteDescription: "N Portfolio and Ideas Site",
   plugins: [
     {
+      use: "gridsome-plugin-tailwindcss"
+    },
+    {
       use: "@gridsome/source-filesystem",
       options: {
         path: "content/ideas/**/*.md",
