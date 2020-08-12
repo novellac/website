@@ -24,5 +24,10 @@ fields:
     - Intermediate
     - Advanced
   label: Experience Levels
+- name: shortdescription
+  type: text
+  config:
+    required: false
+  label: Short Description
 pages:
 - content/ideas/fpo-test-idea.md
