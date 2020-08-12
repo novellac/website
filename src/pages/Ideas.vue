@@ -5,9 +5,10 @@
 
     <h1>Hello, world!</h1>
 
-    <p>
-      Other text soon to come
-    </p>
+    <p>These are some project ideas you can use to build your programming portfolio (well mostly - there are also some just fun project ideas in here, too).</p>
+    <p>Disclaimer: While I did think of these ideas, I'm sure there are others who have done all or most of these ideas before.</p>
+    <p>Have an idea that should be added? DM me on Twitter or make a PR, and join in the fun!</p>
+    <p>Note: Folks who use this site, and all project ideas, should abide by the site's license.</p>
     <section class="posts">
       <IdeaList
         v-for="edge in $page.allIdeaPost.edges"
@@ -15,17 +16,6 @@
         :ideaPost="edge.node"
       />
     </section>
-    <p class="home-links">
-      <a href="https://gridsome.org/docs/" target="_blank" rel="noopener"
-        >Gridsome Docs</a
-      >
-      <a
-        href="https://github.com/gridsome/gridsome"
-        target="_blank"
-        rel="noopener"
-        >GitHub</a
-      >
-    </p>
   </Layout>
 </template>
 <page-query>
@@ -39,6 +29,7 @@ query {
         path
         experiencelevels
         techstack
+        shortdescription
       }
     }
   }
