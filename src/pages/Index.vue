@@ -5,7 +5,7 @@
 
     <h1>Hello, world!</h1>
 
-    <p>
+    <p class="mb-2">
       This will be the front page
     </p>
   </Layout>
