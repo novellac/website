@@ -7,6 +7,7 @@ techstack:
 title: Jump and Run Resume Game
 experiencelevels:
 - Intermediate
+shortdescription: Users learn facts about your resume by running and jumping.
 
 ---
 ## The Idea
