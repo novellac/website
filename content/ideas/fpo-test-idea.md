@@ -4,7 +4,7 @@ techstack:
 - SVG
 - Animations
 - JavaScript
-title: Resume Game
+title: Jump and Run Resume Game
 experiencelevels:
 - Intermediate
 
