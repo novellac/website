@@ -30,5 +30,5 @@ fields:
     required: false
   label: Short Description
 pages:
-- content/ideas/fpo-test-idea.md
 - content/ideas/order-up.md
+- content/ideas/pomo-duo-shared-pomodoro-timer.md
