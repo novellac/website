@@ -30,5 +30,10 @@ At the end of the game, the user sees:
 
 ## Extra Features
 
-* The longer the fact about you, the easier it is for the character to jump and touch, the fewer points they get.
+* The longer the fact about you (length of the string), the easier it is for the character to jump and touch, the fewer points they get.
 * At the end of the game, the user can see which facts about you they've collected - this might encourage them to play the game again to collect all the facts.
+* The resume could be listed below the playing field, but the text is all greyed out. As the game proceeds, each fact collected appears highlighted.
+
+## Challenges
+
+A11y might be a challenge on this project, especially when it comes to screen readers.
